@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.app {
+    width: 100%;
+    height: 100%;
+    display: block;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: rgb(255, 255, 255);
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border-radius: 10px;
+    background: rgb(16, 4, 255);
+}
